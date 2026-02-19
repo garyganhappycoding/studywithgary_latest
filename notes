@@ -1,0 +1,42 @@
+notes for creating this app
+step 1
+download android studio
+download flutter sdk
+edit the environment for flutter sdk (note that no double flutter)
+example in the env file
+C:/src/flutter
+
+step 2
+connect to firebase with this command
+npm install -g firebase-tools
+this is to download node js and allow automatically download all the necessary things
+
+firebase login
+do firebase login
+
+dart pub global activate flutterfire_cli
+install this thing so that you can use flutterfire this command in terminal
+
+flutterfire configure
+configure your flutter project to firebase
+this is to connect both of them
+then you will get a list of project in firebase (make sure to create it first)
+you need to choose which one you one
+
+once done you will have a firebase_options.dart
+it is a file with a lot of api key to connect to your project
+
+next update your pubspec yaml with the dependencies that you need with the correct version and pub get
+remember to also include the asset and image you need
+
+go to your firebase
+check for the id make sure it is correct
+then download manually the google service json.
+note that you should be include the google service json at same level at android=> app=>google-services.json
+
+step 4
+initialize the main
+(learn all things about initialize)
+create the sign up and login screen
+create notification function and plugin
+
